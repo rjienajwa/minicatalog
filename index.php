@@ -1,21 +1,21 @@
-<? include __DIR__ . "/header.php";// 11:00--11:35 19:20--22:53 ?>
+<? include __DIR__ . "/header.php"; ?>
 <article ng-controller="contentController" layout="row">
 	<md-content class="md-padding" layout-xs="column" layout="row" style="background: #ddd">
 		<div flex-xs flex-gt-xs="50" layout="column" style="width: 50%; margin: auto;">
 			<md-card>
 				<md-card-title>
 					<md-card-title-media>
-						<img ng-src="I.jpg" class="md-card-image" style="height: 130px" />
+						<img ng-src="map.png" class="md-card-image" />
 					</md-card-title-media>
 					<md-card-title-text>
-						<div class="md-headline">Лэндинг</div>
-						<div class="md-subhead">Material Design</div>
+						<div class="md-headline">Маршрутизатор</div>
+						<div class="md-subhead">Настраиваемое проложение маршрута</div>
 					</md-card-title-text>
 				</md-card-title>
 				<md-card-content>
-					<p>Простой и понятный лэндинг. Построенн на Angular и Material,
-						благоданя чему очень легко настраивается и правится.</p>
-					{{user}}
+					<p>Прокладывает путь до Вашего офиса. Местоположение пользователя определятеся как 
+					автоматически, так и при узказании своего ареса, или просто по клику на карте.
+					Внешний вид полоностью настраивается.</p>
 				</md-card-content>
 				<md-card-actions layout="row" layout-align="end center">
 					<md-button class="md-warn">Подробнее</md-button>
